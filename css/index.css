@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff1f4;
+    color: #7d4c61;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .imagem {
+    max-width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .contador {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 1em 0;
+  }
+  .play-button {
+    background-color: #612674;
+    color: white;
+    font-size: 2em;
+    padding: 0.5em 0.7em;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+    margin-top: 1em;
+  }
+  .play-button:hover {
+    background-color: #4a1e5a;
+  }
+  
+  
